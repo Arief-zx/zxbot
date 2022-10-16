@@ -69,7 +69,7 @@ async function startNaze() {
     const naze = nazeConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['YT ZxCode','Safari','1.0.0'],
+        browser: ['ZxCode bot','Safari','1.0.0'],
         auth: state
     })
 

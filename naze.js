@@ -24,7 +24,7 @@ const hariini = moment.tz('Asia/Jakarta').format('dddd, DD MMMM YYYY')
 const barat = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const tengah = moment.tz('Asia/Makassar').format('HH:mm:ss')
 const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-const nyoutube = ('© ZxCode\nYoutube/Sc :\nhttps://youtube.com/AriefXFiles')  //ubah di config biar ngk emror
+const nyoutube = ('© ZxCode\nYoutube :\nhttps://youtube.com/AriefXFiles')  //ubah di config biar ngk emror
 const ini_mark = `0@s.whatsapp.net`
 const ownernya = ownernomer + '@s.whatsapp.net'
 
@@ -609,7 +609,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                naze.sendMessage(m.chat, { image: { url: 'https://telegra.ph/Donasi-10-16' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://wa.me/62895600555028_\n\n*Atau Transfer via*\n- *Dana Qris*\n Ke nomer berikut : 0895600555028\n\n_Terima kasih_` }, { quoted: m })
+                naze.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/52f1ab1502bbe81161230.png' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://wa.me/62895600555028_\n\n*Atau Transfer via*\n- *Dana Qris*\n Ke nomer berikut : 0895600555028\n\n_Terima kasih_` }, { quoted: m })
             }
             break
             case 'sc': {
