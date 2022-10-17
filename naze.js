@@ -1298,7 +1298,7 @@ break
             break
             case 'bcgc': case 'bcgroup': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
+                if (!text) throw `Text mana?\n\nExample : ${prefix + command} ZxCode`
                 let getGroups = await naze.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
@@ -1312,7 +1312,7 @@ break
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
+                if (!text) throw `Text mana?\n\nExample : ${prefix + command} ZxCode`
                 let anu = await store.chats.all().map(v => v.id)
                 m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} detik`)
 		for (let yoi of anu) {
